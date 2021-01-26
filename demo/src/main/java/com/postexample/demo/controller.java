@@ -9,6 +9,7 @@ public class controller {
 
     @PostMapping("/postbody")
     public String postBody(@RequestBody String fullName) {
+        System.out.println("hello world");
         return "Hello " + fullName;
     }
 }
